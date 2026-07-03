@@ -1,0 +1,20 @@
+📊 Total sales amount per region for the last quarter.
+1) SELECT Region, SUM(TotalAmount) AS TotalSales FROM RetailTransactions GROUP BY Region ORDER BY TotalSales DESC;
+
+📦 Top 5 best-selling products (by revenue).
+2) SELECT ProductName, SUM(TotalAmount) AS Revenue FROM RetailTransactions GROUP BY ProductName ORDER BY Revenue DESC LIMIT 5;
+
+🛍️ Monthly sales trend across all regions.
+3) SELECT MONTH(Date) AS Month, SUM(TotalAmount) AS Sales FROM RetailTransactions GROUP BY Month ORDER BY Month;
+
+🏆 Region-wise contribution to total sales (as a %).
+4) SELECT Region, SUM(TotalAmount) AS Sales, ROUND( SUM(TotalAmount)/ ( SELECT SUM(TotalAmount) FROM RetailTransactions )*100,2 ) AS Contribution FROM RetailTransactions GROUP BY Region;
+
+🔁 Compare Online vs Offline sales across all months.
+5) SELECT SalesChannel, SUM(TotalAmount) AS Sales FROM RetailTransactions GROUP BY SalesChannel;
+
+📈 Sales trend by Category – Which categories are rising/falling?
+6) SELECT Category, SUM(TotalAmount) AS Sales FROM RetailTransactions GROUP BY Category ORDER BY Sales DESC;
+
+🎯 List customers who purchased more than 10 times.
+7) SELECT CustomerID, COUNT(*) AS Orders FROM RetailTransactions GROUP BY CustomerID HAVING Orders>10 ORDER BY Orders DESC;

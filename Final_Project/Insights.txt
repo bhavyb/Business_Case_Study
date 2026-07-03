@@ -1,0 +1,39 @@
+SALES UPLIFT DASHBOARD — KEY INSIGHTS
+=======================================
+(Based on RetailTransactions.csv — 20,000 transactions, 3,981 customers, ₹555.60M total sales)
+
+1. Balanced regional performance, East leads narrowly.
+   Sales are almost evenly split across regions (25.4% East, 25.2% South, 24.8% West,
+   24.6% North). East is the top performer (~₹141.3M) but no region dominates —
+   growth strategies should be nationally consistent rather than region-specific.
+
+2. Grocery and Electronics are the top-earning categories.
+   Grocery (₹95.0M) and Electronics (₹93.9M) lead category sales, closely followed
+   by Beauty (₹93.2M) and Sports (₹93.1M). Furniture trails as the weakest category
+   (₹88.1M), suggesting an opportunity to boost furniture promotions or bundling.
+
+3. Offline still edges out Online sales, but the gap is narrow.
+   Offline channel contributes 50.6% (₹281.1M) vs Online's 49.4% (₹274.5M) — a near
+   50/50 split. This indicates a healthy omnichannel presence with room to grow
+   online sales through targeted digital campaigns.
+
+4. High average order value indicates strong basket sizes.
+   With ~20K transactions generating ₹555.6M, the average order value is roughly
+   ₹27,780 per transaction — suggesting customers are buying in bulk or purchasing
+   higher-value items rather than making frequent small purchases.
+
+5. Sales peak in October and December, dip in February.
+   October (₹49.7M) and December (₹47.7M) are the strongest months, likely driven by
+   festive/holiday shopping season, while February is consistently the weakest month
+   (₹40.9M) — a good candidate for promotional campaigns to smooth seasonal dips.
+
+6. Top-selling products span daily essentials and lifestyle categories.
+   Wheat Flour (₹14.6M), Sunscreen (₹14.4M), Badminton Racket (₹14.4M), and Shampoo
+   (₹14.4M) are the best-selling products — showing strong demand for both everyday
+   staples and discretionary lifestyle/sports items.
+
+7. Payment methods are fairly evenly distributed, UPI slightly ahead.
+   UPI (₹141.0M) is marginally the most-used payment mode, followed closely by Cash
+   (₹140.5M), Credit Card (₹138.3M), and Net Banking (₹135.8M) — indicating diverse
+   and well-adopted payment preferences across the customer base with no single
+   dominant method.

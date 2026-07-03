@@ -159,8 +159,6 @@ This dashboard helps businesses:
 
 ---
 
-## 📄 Conclusion
-
-The **Sales Uplift Dashboard** provides a centralized view of business performance through interactive visualizations and KPIs. It enables stakeholders to quickly identify trends, evaluate product and regional performance, monitor customer activity, and make informed, data-driven decisions to improve overall business growth.
+Video Link ===> https://drive.google.com/drive/folders/1swaJbXN3TvEmnh6OTBvULK4h1DwO72xS
 
 
